@@ -76,6 +76,7 @@
                         
                         "https://demo.tableau.com/t/LuizOliveira/views/FinanasCorporativas-PainelDemonstrativoFinanceiro_16515152688040/Cockpit-Finance",
                         "https://demo.tableau.com/t/LuizOliveira/views/DesempenhoAcademico/Desempenhoescolar"
+                        
     
                     ];
             // Array of Tableau Server URLs for dashboard or sheet navigation.
@@ -91,7 +92,7 @@
     
             function mediaSizer() {
             // Determines the correct viz layout according to screen sizes.
-                if (window.matchMedia("(max-width: 480px)").matches) {
+                if (window.matchMedia("(max-width: 450px)").matches) {
                     //alert("I am a phone layout!");
                     devType = 'phone';
                     vWidth = 450;
